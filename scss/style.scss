@@ -1,0 +1,36 @@
+// config
+@import "config/config";
+
+// pages
+@import "pages/base";
+@import "pages/header";
+@import "pages/index";
+@import "pages/main";
+@import "pages/footer";
+
+// keyframes
+@import "keyframes/keyframes";
+
+.wechat-unblock .index-displayImg,
+.wechat-unblock .index-line{
+	display: none !important;
+}
+.wechat-unblock .index-posts .index-posts__list {
+	margin: 10px 0;
+}
+.wechat-unblock .index-posts .l-time, .wechat-unblock .index-posts .l-title {
+	margin: 2px 0;
+}
+.wechat-unblock .main-content__title h1, .wechat-unblock .main-content__title {
+	margin: 10px 0;
+}
+.wechat-unblock .main-content__date h4, .wechat-unblock .main-content__date {
+	margin: 5px 0;
+}
+.wechat-unblock .main-content, .wechat-unblock .title-type__custom {
+	margin-top: 5px;
+}
+
+.wechat-unblock article {
+	margin: 10px 0;
+}

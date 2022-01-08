@@ -1,0 +1,115 @@
+/*
+ * Index page
+ */
+.index-displayImg {
+  @media screen and (max-width: 800px){ height: 28vh ;}
+  position: relative;
+  width: 100vw; height: 25vh;
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+}
+.index-line {
+  @media screen and (max-width: 800px){ width: 90vw ;}
+  position: relative;
+  margin: 0 auto;
+  margin-top: 8vmin;
+  text-align: center;
+  width: 50vw; height: 5vh;
+  border-top: $theme-color-gray-light 1px solid;
+  line-height: 5vh;
+  span {
+    display: inline-block;
+    color: $theme-color-black;
+    border-top: $theme-color-gold 3px solid;
+    margin-top: -1px;
+    opacity: .9;
+    font-size: 1rem;
+  }
+}
+.index-sns {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 3vmin;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  a {
+    @media screen and (max-width: 800px){
+      width: 55%;
+      padding: 1.7vh 3vw;
+      margin: 3vmin auto;
+      font-size: .7rem;
+    }
+    margin: 2vmin auto;
+    padding: 1.3vh 0.2vw;
+    width: 18%;
+    color: $theme-color-gray-heavy;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    border: $theme-color-gray-heavy 1px solid;
+    transition: all .2s ease;
+    &:hover {
+      color: $theme-color-white;
+      background-color: $theme-color-gold-light;
+    }
+  }
+}
+.index-posts {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  margin-top: 4vmin;
+  width: 50vw;
+  @media screen and (max-width: 800px){ width: 90vw ;}
+  .index-posts__list {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    margin: 4vh 0;
+    font-size: .8rem;
+    @media screen and (max-width: 800px){ flex-direction: column ; margin: 2.8vh 0;}
+  }
+  a {
+    transition: all .3s ease;
+    letter-spacing: 0.5px;
+    &:hover { opacity: .6 ;}
+  }
+  .l-time {
+    width: 8rem; height: auto;
+    a {color: rgba(17,17,17,.5) ;}
+  }
+  .l-title {
+    width: calc(100% - 8rem);
+    a { color: $theme-color-black ;}
+    @media screen and (max-width: 800px){ width: 100% ;}
+  }
+  .l-time, .l-title { @media screen and (max-width: 800px){ width: 100%; margin: 1vh 0;} }
+}
+.index-paginate {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 2vh;
+  display: inline-block;
+  text-align: center;
+  font-size: .8rem;
+  nav { position: relative; margin: 0 auto ;}
+  ul { list-style-type: none ;}
+  li { display: inline-block ;}
+  a {
+    @media screen and (max-width: 800px) { padding: 2vmin ;}
+    display: inline-block;
+    color: rgba(17,17,17, 0.5);
+    padding: 1vmin;
+    transition: opacity .2s ease;
+    &:hover { opacity: .4 ;}
+  }
+  .active {
+    a {
+      color: $theme-color-black;
+      cursor: none;
+      pointer-events: none;
+    }
+  }
+}
