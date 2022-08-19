@@ -31,7 +31,6 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<width>32</width>
 	<height>32</height>
 </image> 
-<!-- podcast_generator="Blubrry PowerPress/9.1.4" mode="advanced" feedslug="feed" Blubrry PowerPress Podcasting plugin for WordPress (https://www.blubrry.com/powerpress/) -->
 	<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
 	<itunes:summary><![CDATA[基督教北京守望教会讲道、主日敬拜、通报]]></itunes:summary>
 	<itunes:author>基督教北京守望教会发布</itunes:author>
