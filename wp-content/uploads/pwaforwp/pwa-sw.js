@@ -3,11 +3,11 @@ const CACHE_VERSION = '1.7.34.2';
 const BASE_CACHE_FILES = [
     'https://t5.shwchurch.org/wp-content/uploads/2021/06/439c8112e53379d73724e80c93eccd0c.png',
 'https://t5.shwchurch.org/wp-content/uploads/2019/11/podcast-sw.jpg',
-'https://t5.shwchurch.org/2022/12/24/beijingshouwangjiaohuizhuribaogaoshixiang2022nian12yue25ri/',
-'https://t5.shwchurch.org/2022/12/17/beijingshouwangjiaohuizhuribaogaoshixiang2022nian12yue18ri/',
-'https://t5.shwchurch.org/2022/12/17/beijingshouwangjiaohui2022nian12yue18rizhurijingbaichengxu/',
-'https://t5.shwchurch.org/2022/12/17/buyaopa2022nian12yue18rizhurijiangzhang-xiaofengmushi/',
-'https://t5.shwchurch.org/2022/12/10/beijingshouwangjiaohuizhuribaogaoshixiang2022nian12yue11ri/',
+'https://t5.shwchurch.org/2022/12/30/beijingshouwangjiaohuizhuribaogaoshixiang2023nian1yue1ri/',
+'https://t5.shwchurch.org/2022/12/30/beijingshouwangjiaohui2023nian1yue1rizhurijingbaichengxu/',
+'https://t5.shwchurch.org/2022/12/30/fangdanjiangdao2023nian1yue1rizhurijiangzhang-xiaofengmushi/',
+'https://t5.shwchurch.org/2022/12/25/beijingshouwangjiaohui2022nian12yue25rizhurijingbaichengxu/',
+'https://t5.shwchurch.org/2022/12/25/youyizicigeiwomen2022nian12yue25rizhurijiangzhang-yuanlingmushi/',
 
 ];
 
