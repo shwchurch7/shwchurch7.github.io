@@ -39,9 +39,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<itunes:type>episodic</itunes:type>
 	<itunes:owner>
 		<itunes:name>基督教北京守望教会发布</itunes:name>
-		<itunes:email>lanshunfang@gmail.com</itunes:email>
 	</itunes:owner>
-	<managingEditor>lanshunfang@gmail.com (基督教北京守望教会发布)</managingEditor>
 	<copyright>版权归基督教北京守望教会所有 https://shwchurch7.github.io</copyright>
 	<itunes:subtitle>主页 | 基督教北京守望教会</itunes:subtitle>
 	<image>
@@ -58,6 +56,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<rawvoice:location>Beijing</rawvoice:location>
 	<podcast:location>Beijing</podcast:location>
 	<rawvoice:frequency>Weekly</rawvoice:frequency>
+	<podcast:guid>c9c7bad3-4712-514e-9ebd-d1e208fa1b76</podcast:guid>
 	<rawvoice:subscribe feed="https://shwchurch7.github.io/feed.xml" itunes="https://podcasts.apple.com/us/podcast/id1238003974"></rawvoice:subscribe>
 	<item>
 		<title>北京守望教会主日报告事项（2023年3月12日）</title>
