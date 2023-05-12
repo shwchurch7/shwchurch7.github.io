@@ -6,7 +6,7 @@
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
 	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md"
+xmlns:podcast="https://podcastindex.org/namespace/1.0"
 xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 >
@@ -259,6 +259,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 ]]></itunes:summary>
 		<itunes:author>基督教北京守望教会发布</itunes:author>
 		<itunes:image href="https://shwchurch3.github.io/wp-content/uploads/2019/11/podcast-sw.jpg" />
+		<itunes:episodeType>full</itunes:episodeType>
 	</item>
 		<item>
 		<title>北京守望教会主日报告事项（2023年4月30日）</title>
@@ -445,6 +446,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 亚述尽管有强大的军队，并且也曾横扫中东列国，乃至攻破了挪亚们，但到了神审判的时候，先知却预言这大军软弱得如同妇女一般，毫无战力可言，结局只能是四散溃逃；尼尼微也有险关要隘作为前哨，又有坚固的城墙和城门可供防御，...]]></itunes:summary>
 		<itunes:author>基督教北京守望教会发布</itunes:author>
 		<itunes:image href="https://shwchurch3.github.io/wp-content/uploads/2019/11/podcast-sw.jpg" />
+		<itunes:episodeType>full</itunes:episodeType>
 	</item>
 		<item>
 		<title>北京守望教会主日报告事项（2023年4月23日）</title>
@@ -626,6 +628,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 因此，在先知预言亚述败亡的时候，犹大人面对亚述内心还是绝望的。因为他们并没有仰望耶和华神，这预言也就对他们没什么影响力。// 对神的信心才可以让人不倚靠才能，不依靠势力，惟倚靠神自己。这样也才能得胜内心的恐惧和绝望，才能得胜自我和世界。今日教会同样是在类似的挑战和诱惑中。比如神的子民可能以为人数多些或者联合起来，就会有力量有影响力，就让人对忌惮。或者也想依附在...]]></itunes:summary>
 		<itunes:author>基督教北京守望教会发布</itunes:author>
 		<itunes:image href="https://shwchurch3.github.io/wp-content/uploads/2019/11/podcast-sw.jpg" />
+		<itunes:episodeType>full</itunes:episodeType>
 	</item>
 		<item>
 		<title>北京守望教会主日报告事项（2023年4月16日）</title>
@@ -837,6 +840,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 第3节说“耶和华大有能力”，并且在第3~8节用了很多形象的比喻，生动的彰显了神的能力。例如：【他乘旋风和暴风而来，云彩为他脚下的尘土。4 他斥责海，使海干了，使一切江河干涸……5 大山因他震动；小山也都消化。大地在他面前突起……他的忿怒如火倾倒；磐石因他崩裂。】这一段又提到巴珊、迦密和黎巴嫩这三个地方，它们都是富饶的地方，也是人类强大的象征。但是在神的大能面前不过如同树木花草一样脆弱，正如先知所言【他发忿恨，谁能立得住呢？他发烈怒，谁...]]></itunes:summary>
 		<itunes:author>基督教北京守望教会发布</itunes:author>
 		<itunes:image href="https://shwchurch3.github.io/wp-content/uploads/2019/11/podcast-sw.jpg" />
+		<itunes:episodeType>full</itunes:episodeType>
 	</item>
 		<item>
 		<title>北京守望教会主日报告事项（2023年4月9日）</title>
@@ -1036,6 +1040,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 基督的复活就告诉我们将来在天国的人灵魂和身体是什么样的，就是像祂那样的生命，就是保罗所说的“你们岂不知不义的人不能承受神的国吗？不要自欺。无论是淫乱的，拜偶像的，奸淫的，作娈童的，亲男色的，偷窃的，贪婪的，醉酒的，辱骂的，勒索的，都不能承受神的国”（林前六9），又说“血肉之体不能承受神的国，必朽坏的不能承受不朽坏的”（林前十五50）。// 可以说，基督的复活就显明了，祂在地上的生命样式，与祂在天上的复活身体，才是匹配的。这样的全人生命才是神为我们预备的完整救恩。复活之后的基督就是上帝将来要给我们的生命形态。今天，在地上所有认识基督的人，都是上帝先给了内在的属灵新生命，将来再给一个复活的身体。上帝是分阶段赐予永生生命的不同部分。基督其实是...]]></itunes:summary>
 		<itunes:author>基督教北京守望教会发布</itunes:author>
 		<itunes:image href="https://shwchurch3.github.io/wp-content/uploads/2019/11/podcast-sw.jpg" />
+		<itunes:episodeType>full</itunes:episodeType>
 	</item>
 		<item>
 		<title>北京守望教会主日报告事项（2023年4月2日）</title>
@@ -1210,6 +1215,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 其次，既然神国度拓展的步伐要一直迈向地极，就不是一个人、一个教会或一个时代可以独自完成的，而是需要历世历代圣徒前仆后继、世代相传的努力。因此，“使徒行传”如此结尾，也就意味着即便使徒们离世，但福音的火炬终将世代薪火相传，永不熄灭。在这个意义上，保罗的结局如何，是否获释，是否前往西班牙传道，并不要紧。因为，总会有主所呼召的宣教士挺身而出，前往宣教的工场，收割属灵...]]></itunes:summary>
 		<itunes:author>基督教北京守望教会发布</itunes:author>
 		<itunes:image href="https://shwchurch3.github.io/wp-content/uploads/2019/11/podcast-sw.jpg" />
+		<itunes:episodeType>full</itunes:episodeType>
 	</item>
 		<item>
 		<title>北京守望教会主日报告事项（2023年3月26日）</title>
