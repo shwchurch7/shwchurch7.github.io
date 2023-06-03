@@ -3,11 +3,11 @@ const CACHE_VERSION = '1.7.34.2';
 const BASE_CACHE_FILES = [
     'https://t5.shwchurch.org/wp-content/uploads/2021/06/439c8112e53379d73724e80c93eccd0c.png',
 'https://t5.shwchurch.org/wp-content/uploads/2019/11/podcast-sw.jpg',
+'https://t5.shwchurch.org/2023/06/03/beijingshouwangjiaohuizhuribaogaoshixiang2023nian6yue4ri/amp/',
+'https://t5.shwchurch.org/2023/06/03/beijingshouwangjiaohui2023nian6yue4rizhurijingbaichengxu/amp/',
+'https://t5.shwchurch.org/2023/06/03/yaochengrensuofandezui2023nian6yue4rizhurijiangzhang-xiaofengmushi/amp/',
 'https://t5.shwchurch.org/2023/05/26/beijingshouwangjiaohuizhuribaogaoshixiang2023nian5yue28ri/amp/',
 'https://t5.shwchurch.org/2023/05/26/beijingshouwangjiaohui2023nian5yue28rizhurijingbaichengxu/amp/',
-'https://t5.shwchurch.org/2023/05/26/qianlairenzhizaihuimulibanshi2023nian5yue28rizhurijiangzhang-xiaobaimushi/amp/',
-'https://t5.shwchurch.org/2023/05/20/beijingshouwangjiaohuizhuribaogaoshixiang2023nian5yue21ri/amp/',
-'https://t5.shwchurch.org/2023/05/20/beijingshouwangjiaohui2023nian5yue21rizhurijingbaichengxu/amp/',
 
 ];
 
