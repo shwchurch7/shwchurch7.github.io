@@ -58,6 +58,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<rawvoice:location>Beijing</rawvoice:location>
 	<podcast:location>Beijing</podcast:location>
 	<rawvoice:frequency>Weekly</rawvoice:frequency>
+	<podcast:podping usesPodping="true" />
 	<podcast:guid>c9c7bad3-4712-514e-9ebd-d1e208fa1b76</podcast:guid>
 	<rawvoice:subscribe feed="https://shwchurch7.github.io/categories/%E4%B8%BB%E6%97%A5%E6%95%AC%E6%8B%9C%E7%A8%8B%E5%BA%8F/feed.xml" itunes="https://podcasts.apple.com/us/podcast/id1238003974"></rawvoice:subscribe>
 	<item>
