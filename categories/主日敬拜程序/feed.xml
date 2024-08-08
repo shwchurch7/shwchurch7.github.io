@@ -35,7 +35,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<itunes:summary><![CDATA[基督教北京守望教会讲道、主日敬拜、通报]]></itunes:summary>
 	<itunes:author>基督教北京守望教会发布</itunes:author>
 	<itunes:explicit>false</itunes:explicit>
-	<itunes:image href="https://shwchurch3.github.io/wp-content/uploads/2019/11/podcast-sw.jpg" />
+	<itunes:image href="https://shwchurch7.github.io/wp-content/uploads/2019/11/podcast-sw.jpg" />
 	<itunes:type>episodic</itunes:type>
 	<itunes:owner>
 		<itunes:name>基督教北京守望教会发布</itunes:name>
@@ -47,7 +47,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<itunes:subtitle>主页 | 基督教北京守望教会</itunes:subtitle>
 	<image>
 		<title>主日敬拜程序 &#8211; 基督教北京守望教会</title>
-		<url>https://shwchurch3.github.io/wp-content/uploads/2019/11/podcast-sw.jpg</url>
+		<url>https://shwchurch7.github.io/wp-content/uploads/2019/11/podcast-sw.jpg</url>
 		<link>https://shwchurch7.github.io/categories/%e4%b8%bb%e6%97%a5%e6%95%ac%e6%8b%9c%e7%a8%8b%e5%ba%8f/</link>
 	</image>
 	<itunes:category text="Religion &amp; Spirituality">
