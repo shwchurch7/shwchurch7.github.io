@@ -8,7 +8,6 @@
 	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
 xmlns:podcast="https://podcastindex.org/namespace/1.0"
 xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
-xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 >
 
 <channel>
@@ -53,7 +52,6 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<itunes:category text="Religion &amp; Spirituality">
 		<itunes:category text="Christianity" />
 	</itunes:category>
-	<googleplay:category text="Religion &amp; Spirituality"/>
 	<itunes:category text="Religion &amp; Spirituality" />
 	<rawvoice:rating>TV-G</rawvoice:rating>
 	<rawvoice:location>Beijing</rawvoice:location>
