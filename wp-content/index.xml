@@ -1,19 +1,109 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wp-content on 北京守望教会</title><link>/wp-content/</link><description>Recent content in Wp-content on 北京守望教会</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="/wp-content/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>/wp-content/uploads/ftp/License/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/wp-content/uploads/ftp/License/</guid><description>This is free and unencumbered software released into the public domain.
-Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
-In jurisdictions that recognize copyright laws, the author or authors of this software dedicate any and all copyright interest in the software to the public domain.</description></item><item><title/><link>/wp-content/uploads/ftp/README/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/wp-content/uploads/ftp/README/</guid><description>#Apaxy
-Demo: adamwhitcroft.com/apaxy
-Apaxy is a customisable theme built to enhance the experience of browsing web directories. It uses the mod_autoindex Apache module—and some CSS—to override the default style of a directory listing.
-##Features
-Apaxy may be basic, but it gives you a great deal of creative freedom when styling your directory.
-Style your directory listing with CSS. Make it pop with Javascript or jQuery. Add welcome messages, download instructions or copyright notices.</description></item><item><title/><link>/wp-content/uploads/ftp/theme/footer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/wp-content/uploads/ftp/theme/footer/</guid><description> Apaxy by @adamwhitcroft // grab the 2nd child and add the parent class. tr:nth-child(2) document.getElementsByTagName(&#39;tr&#39;)[1].className = &#39;parent&#39;;</description></item><item><title/><link>/wp-content/uploads/ftp/theme/header/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/wp-content/uploads/ftp/theme/header/</guid><description> 守望诗班赞美诗MP3、@守望网刊等资源下载页面——基督教北京守望教会 微信不支持下载，将尝试直接打开文件。如果你要下载，请点击微信右上角，然后在浏览器中打开哦。</description></item><item><title/><link>/wp-content/uploads/pwaforwp/pwa-amp-sw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/wp-content/uploads/pwaforwp/pwa-amp-sw/</guid><description>
-Installing service worker
-var swsource = &#34;https://t5.shwchurch.org/pwa-amp-sw.js&#34;;
-if(&#34;serviceWorker&#34; in navigator) { navigator.serviceWorker.register(swsource, {scope: &#39;https://t5.shwchurch.org/amp/&#39;}).then(function(reg){
-console.log(&#39;Congratulations!!Service Worker Registered ServiceWorker scope: &#39;, reg.scope);
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wp-Content on 北京守望教会</title><link>/wp-content/</link><description>Recent content in Wp-Content on 北京守望教会</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="/wp-content/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>/wp-content/uploads/ftp/License/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/wp-content/uploads/ftp/License/</guid><description>&lt;p>This is free and unencumbered software released into the public domain.&lt;/p>
+&lt;p>Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.&lt;/p>
+&lt;p>In jurisdictions that recognize copyright laws, the author or authors of this software dedicate any and all copyright interest in the software to the public domain. We make this dedication for the benefit of the public at large and to the detriment of our heirs and successors. We intend this dedication to be an overt act of relinquishment in perpetuity of all present and future rights to this software under copyright law.&lt;/p>
+&lt;p>THE SOFTWARE IS PROVIDED &amp;ldquo;AS IS&amp;rdquo;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.&lt;/p>
+&lt;p>For more information, please refer to &lt;a class="link" href="http://unlicense.org/" target="_blank" rel="noopener"
+>http://unlicense.org/&lt;/a>&lt;/p></description></item><item><title/><link>/wp-content/uploads/ftp/README/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/wp-content/uploads/ftp/README/</guid><description>&lt;p>#Apaxy&lt;/p>
+&lt;p>Demo: &lt;a class="link" href="http://adamwhitcroft.com/apaxy/" target="_blank" rel="noopener"
+>adamwhitcroft.com/apaxy&lt;/a>&lt;/p>
+&lt;p>Apaxy is a customisable theme built to enhance the experience of browsing web directories. It uses the &lt;code>mod_autoindex&lt;/code> Apache module—and some CSS—to override the default style of a directory listing.&lt;/p>
+&lt;p>##Features&lt;/p>
+&lt;p>Apaxy may be basic, but it gives you a great deal of creative freedom when styling your directory.&lt;/p>
+&lt;ul>
+&lt;li>Style your directory listing with CSS.&lt;/li>
+&lt;li>Make it pop with Javascript or jQuery.&lt;/li>
+&lt;li>Add welcome messages, download instructions or copyright notices.&lt;/li>
+&lt;li>Add custom mime type icons (requires editing the &lt;code>.htaccess&lt;/code> file)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Sadly, visual style is all you can work with. It&amp;rsquo;s not possible to alter the generated table structure of the listing directory with Apaxy.&lt;/em>&lt;/p>
+&lt;p>##Installation&lt;/p>
+&lt;p>Apaxy requires an Apache(2.0.23+) enabled HTTP server.&lt;/p>
+&lt;p>Let&amp;rsquo;s assume you have a folder named &lt;code>share&lt;/code> in your server root directory (the path thus being &lt;code>http://mywebsite.com/share&lt;/code>) that you&amp;rsquo;d like to use as your listing directory:&lt;/p>
+&lt;ul>
+&lt;li>Download and unzip Apaxy&lt;/li>
+&lt;li>Copy and paste the contents of the &lt;code>/apaxy&lt;/code> folder to your &lt;code>/share&lt;/code> folder.&lt;/li>
+&lt;li>Edit &lt;code>htaccess.txt&lt;/code> (now in the &lt;code>/share&lt;/code> folder) and update all instances of paths marked with &lt;em>{FOLDERNAME}&lt;/em> to point to your site root.&lt;/li>
+&lt;/ul>
+&lt;p>So&amp;hellip;&lt;/p>
+&lt;pre>&lt;code>AddIcon /{FOLDERNAME}/theme/icons/gif.png .gif
+&lt;/code>&lt;/pre>
+&lt;p>Should be changed to&amp;hellip;&lt;/p>
+&lt;pre>&lt;code>AddIcon /share/theme/icons/gif.png .gif
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>Once done, rename &lt;code>htaccess.txt&lt;/code> to &lt;code>.htaccess&lt;/code> in both the &lt;code>/share&lt;/code> and &lt;code>/share/theme&lt;/code> folders.&lt;/li>
+&lt;li>&lt;a class="link" href="http://25.media.tumblr.com/tumblr_lw7q28y0Mz1qanm80o1_500.gif" target="_blank" rel="noopener"
+>Treat yo&amp;rsquo;self&lt;/a>, you&amp;rsquo;re done.&lt;/li>
+&lt;/ul>
+&lt;p>##Apaxy themes&lt;/p>
+&lt;p>If you&amp;rsquo;d like to alter the default Apaxy theme, look in the &lt;code>/theme&lt;/code> folder and you&amp;rsquo;ll find the following files:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>header.html&lt;/code>&lt;/li>
+&lt;li>&lt;code>footer.html&lt;/code>&lt;/li>
+&lt;li>&lt;code>style.css&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>Edit these as you would any other HTML or CSS file.&lt;/p>
+&lt;p>Adding your own icons is a little more involved. You&amp;rsquo;ll need to edit the main Apaxy &lt;code>.htaccess&lt;/code> file. Look for the following as an example:&lt;/p>
+&lt;pre>&lt;code>AddIcon /{FOLDERNAME}/theme/icons/gif.png .gif
+&lt;/code>&lt;/pre>
+&lt;p>The above rule will assign an icon named &lt;code>gif.png&lt;/code> from the directory &lt;code>/{FOLDERNAME}/theme/icons/&lt;/code> to any file with the &lt;code>.gif&lt;/code> extension.&lt;/p>
+&lt;p>This URL path is relative to your site&amp;rsquo;s root.&lt;/p>
+&lt;p>##Mime Types&lt;/p>
+&lt;p>The default Apaxy theme &lt;code>/themes/apaxy&lt;/code> has icons in place for the following mime types:&lt;/p>
+&lt;pre>&lt;code>.aif .aif .asf .asx .avi .bin .c .css .csv .dmg .doc .docm .docx .dot .dotm .eps .flv .gif
+.htm .html .ico .iff .jar .jpeg .jpg .js .json .log .m3u .m4a .md .mid .mov .mp3 .mp4 .mpa
+.mpg .msg .mwa .odt .pages .pdf .pkg .png .ps .psd .ra .rar .rb .rm .rss .rtf .shtml
+.sql .srt .swf .tex .tiff .txt .vob .wav .wmv .wpd .wps .xhtml .xlam .xlr .xls .xlsm .xlsx
+.xltm .xltx .xml .zip
+&lt;/code>&lt;/pre>
+&lt;p>##Credits&lt;/p>
+&lt;p>Apaxy owes it&amp;rsquo;s existence to the amazing &lt;a class="link" href="http://larsjung.de/h5ai/" target="_blank" rel="noopener"
+>h5ai&lt;/a> by &lt;a class="link" href="https://twitter.com/lrsjng" target="_blank" rel="noopener"
+>Lars Jung&lt;/a>. Had I not seen this, I would never have looked into making my own (probably way less useful) version.&lt;/p>
+&lt;p>&lt;a class="link" href="http://tiheum.deviantart.com/art/Faenza-Icons-173323228" target="_blank" rel="noopener"
+>Faenza Icons&lt;/a> are used in the &lt;code>apaxy&lt;/code> theme.&lt;/p></description></item><item><title/><link>/wp-content/uploads/ftp/theme/footer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/wp-content/uploads/ftp/theme/footer/</guid><description>&lt;/div>&lt;!--/.wrapper-->
+&lt;div class="footer">
+Apaxy by &lt;a href="https://twitter.com/adamwhitcroft">@adamwhitcroft&lt;/a>
+&lt;/div>&lt;!--/.footer-->
+&lt;script>
+// grab the 2nd child and add the parent class. tr:nth-child(2)
+document.getElementsByTagName('tr')[1].className = 'parent';
+&lt;/script>
+&lt;script src="/wp-content/uploads/ftp/theme/jquery-2.1.3.min.js">&lt;/script>
+&lt;script async="" src="/wp-content/uploads/ftp/theme/style.js">&lt;/script></description></item><item><title/><link>/wp-content/uploads/ftp/theme/header/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/wp-content/uploads/ftp/theme/header/</guid><description>&lt;!DOCTYPE html>
+&lt;html lang="zh-CN">
+&lt;head>
+&lt;meta charset="UTF-8">
+&lt;title>守望诗班赞美诗MP3、@守望网刊等资源下载页面——基督教北京守望教会&lt;/title>
+&lt;link rel="stylesheet" href="/wp-content/uploads/ftp/theme/style.css" type="text/css">
+&lt;meta name="viewport" content="width=device-width, initial-scale=1">
+&lt;/head>
+&lt;div class="wrapper">
+&lt;div id="logo">&lt;a href="/" title="基督教北京守望教会" rel="home">&lt;img src="https://t2.shwchurch.org/wp-content/themes/shwchurch/images/logo.png" style="width:180px; height: 50px; margin: 0 0 20px 0">&lt;/a>&lt;/div>
+&lt;h1 class="wx-alert wx">
+微信不支持下载，将尝试直接打开文件。如果你要下载，请点击微信右上角，然后在浏览器中打开哦。
+&lt;/h1>
+&lt;!-- we open the `wrapper` element here, but close it in the `footer.html` file --></description></item><item><title/><link>/wp-content/uploads/pwaforwp/pwa-amp-sw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/wp-content/uploads/pwaforwp/pwa-amp-sw/</guid><description>&lt;!doctype html>
+&lt;html>
+&lt;head>
+&lt;title>Installing service worker&lt;/title>
+&lt;script type="text/javascript">
+var swsource = "https://t5.shwchurch.org/pwa-amp-sw.js";
+if("serviceWorker" in navigator) {
+navigator.serviceWorker.register(swsource, {scope: 'https://t5.shwchurch.org/amp/'}).then(function(reg){
+console.log('Congratulations!!Service Worker Registered ServiceWorker scope: ', reg.scope);
 }).catch(function(err) {
-console.log(&#39;ServiceWorker registration failed: &#39;, err);
-}); };
-window.addEventListener(&#39;beforeinstallprompt&#39;, (e) = {
+console.log('ServiceWorker registration failed: ', err);
+});
+};
+window.addEventListener('beforeinstallprompt', (e) => {
 deferredPrompt = e;
 })
-Installing service worker...</description></item></channel></rss>
+&lt;/script>
+&lt;meta name="robots" content="noindex">
+&lt;/head>
+&lt;body>
+Installing service worker...
+&lt;/body>
+&lt;/html></description></item></channel></rss>
