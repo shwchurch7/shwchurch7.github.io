@@ -1,0 +1,37 @@
+{
+    "name": "基督教北京守望教会",
+    "short_name": "基督教北京守望教会",
+    "description": "",
+    "icons": [
+        {
+            "src": "https:\/\/t5.shwchurch.org\/wp-content\/uploads\/2021\/06\/439c8112e53379d73724e80c93eccd0c.png",
+            "sizes": "192x192",
+            "type": "image\/png",
+            "purpose": "any"
+        },
+        {
+            "src": "https:\/\/t5.shwchurch.org\/wp-content\/uploads\/2021\/06\/439c8112e53379d73724e80c93eccd0c.png",
+            "sizes": "192x192",
+            "type": "image\/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "https:\/\/t5.shwchurch.org\/wp-content\/uploads\/2019\/11\/podcast-sw.jpg",
+            "sizes": "512x512",
+            "type": "image\/png",
+            "purpose": "any"
+        },
+        {
+            "src": "https:\/\/t5.shwchurch.org\/wp-content\/uploads\/2019\/11\/podcast-sw.jpg",
+            "sizes": "512x512",
+            "type": "image\/png",
+            "purpose": "maskable"
+        }
+    ],
+    "background_color": "#D5E0EB",
+    "theme_color": "#D5E0EB",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "https:\/\/t5.shwchurch.org\/amp\/",
+    "scope": "https:\/\/t5.shwchurch.org\/amp\/"
+}
