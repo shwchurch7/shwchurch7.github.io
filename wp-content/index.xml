@@ -84,26 +84,4 @@ document.getElementsByTagName('tr')[1].className = 'parent';
 &lt;h1 class="wx-alert wx">
 微信不支持下载，将尝试直接打开文件。如果你要下载，请点击微信右上角，然后在浏览器中打开哦。
 &lt;/h1>
-&lt;!-- we open the `wrapper` element here, but close it in the `footer.html` file --></description></item><item><title/><link>/wp-content/uploads/pwaforwp/pwa-amp-sw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/wp-content/uploads/pwaforwp/pwa-amp-sw/</guid><description>&lt;!doctype html>
-&lt;html>
-&lt;head>
-&lt;title>Installing service worker&lt;/title>
-&lt;script type="text/javascript">
-var swsource = "https://t5.shwchurch.org/pwa-amp-sw.js";
-if("serviceWorker" in navigator) {
-navigator.serviceWorker.register(swsource, {scope: 'https://t5.shwchurch.org/amp/'}).then(function(reg){
-console.log('Congratulations!!Service Worker Registered ServiceWorker scope: ', reg.scope);
-}).catch(function(err) {
-console.log('ServiceWorker registration failed: ', err);
-});
-};
-window.addEventListener('beforeinstallprompt', (e) => {
-deferredPrompt = e;
-})
-&lt;/script>
-&lt;meta name="robots" content="noindex">
-&lt;/head>
-&lt;body>
-Installing service worker...
-&lt;/body>
-&lt;/html></description></item></channel></rss>
+&lt;!-- we open the `wrapper` element here, but close it in the `footer.html` file --></description></item></channel></rss>
