@@ -18,4 +18,36 @@
 <a class=page-link href=/posts/page/817/>817</a>
 <span class='page-link dots'>&mldr;</span>
 <a class=page-link href=/posts/page/1004/>1004</a></nav><footer class=site-footer><section class=copyright>&copy;
-2025 北京守望教会</section></footer></main></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z+KMkF24hUW8WePSA9HM=" crossorigin=anonymous></script><script type=text/javascript src=/ts/main.8f0d5af9c3d4c313dd9d476901191257ac953ed160c0e3088fcee02c4aee713e.js defer></script><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>
+2025 北京守望教会</section></footer><script>const initWordpressHugoPlaylist=()=>{const a=`wp-hugo-song-current-playing`,h=(e=`.wp-audio-playlist`)=>{const n=`${e} noscript`,t=document.querySelector(n)?.innerText;if(!t){console.log(`[getPlaylist] Can't find text in selector [${n}]`);return}console.log(`getPlaylist`,`olString`,t);const s=(new DOMParser).parseFromString(t,`text/html`).querySelector(`ol`);return console.log(`getPlaylist`,`ol`,s),Array.from(s.querySelectorAll(`li a`)).map(e=>({name:e.innerText,artist:`基督教北京守望教会唱诗班`,src:e.href}))},t=h();if(!t||!t.length)return;const c=(e=`.wp-audio-playlist`)=>{const t=`${e} audio`,n=document.querySelector(t);return n||console.error(`getAudioElement`,`audioEle`,`Can't find element with selector`,t),n},s=`wordpress_hugo_audio_playlist_player`;function m(){const e=document.createElement("style");e.textContent=`
+  #${s} {
+    font-size: 14px;
+  }
+  #${s} .controls {
+    margin-bottom: 20px;
+  }
+  #${s} .wp-hugo-song-current-playing {
+    border-radius: 5px;
+    background-color:#f7f7f7;
+  }
+
+`,document.head.appendChild(e)}function l(){const t=`
+
+<div id="${s}">
+    <div class="controls">
+        <button id="prev">上一首</button>
+        <button id="play">播放</button>
+        <button id="next">下一首</button>
+    </div>
+
+    <div id="wp_hugo_playlist">
+        <div class="song-info">
+            <a class="song-title" href=""></a>
+            
+        </div>
+    </div>
+</div>
+`,n=c(),e=document.createElement(`div`);return e.innerHTML=t,n.after(e),m(),document.querySelector(`#${s}`)}const r=l(),n=c(),i=r.querySelector("#play"),d=r.querySelector("#prev"),u=r.querySelector("#next");let e=+(localStorage.getItem(a)||0);n.addEventListener("ended",t=>{o(e+1)});function o(e){const s=t[e];n.src=s.src,n.play(),p(e)}f();function f(){const e=document.querySelector(`#wp_hugo_playlist`);e.innerHTML=t.map((e,t)=>`
+        <div class="song-info" data-song-id="${t}">
+            <button class="song-title" data-song-id="${t}">${e.name}</button>
+            <a class="song-title" href="${e.src}" download>下载</a>
+        </div>`).join(``),e.addEventListener(`click`,e=>{console.log(`updatePlaylist`,`click`,e?.target);const t=e?.target?.getAttribute(`data-song-id`);if(!t){console.error(`updatePlaylist`,`addEventListener`,`The songId is null on [e?.target?.getAttribute("data - sone - id")]`);return}o(t)})}function p(n){const o=document.querySelector(`#wp_hugo_playlist`),s=o.querySelectorAll(".song-info");s.forEach(e=>e.classList.remove(a));const r=t[n];i.innerText=`播放(${r.name})`,s[n].classList.add(a),e=n,e===t.length-1&&(e=0),localStorage.setItem(a,e)}i.addEventListener("click",()=>{if(n.paused){n.play();const s=t[e];i.textContent=`暂停(${s.name})`}else n.pause(),i.textContent=`播放(${song.name})`}),d.addEventListener("click",()=>{e=(e-1+t.length)%t.length,o(e)}),u.addEventListener("click",()=>{e=(e+1)%t.length,o(e)}),o(e)};window.addEventListener(`load`,()=>{initWordpressHugoPlaylist()})</script></main></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z+KMkF24hUW8WePSA9HM=" crossorigin=anonymous></script><script type=text/javascript src=/ts/main.8f0d5af9c3d4c313dd9d476901191257ac953ed160c0e3088fcee02c4aee713e.js defer></script><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>
