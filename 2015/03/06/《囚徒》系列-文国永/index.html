@@ -7,7 +7,39 @@
 <time class=article-time--published>Mar 06, 2015</time></div><div><svg class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
 <time class=article-time--reading>阅读时长: 1 分钟</time></div></footer></div></header><section class=article-content><p>**            (十四)**</p><ul style=list-style-type:square><li>出远门前<br>某些平凡的事物<br>似乎都要神圣起来<br>比如<br>在案板前<br>告别<br>一棵即将碎尸万段的白菜<br>或者<br>爬高上低<br>为几盆久未打理的花草<br>轮番施洗<br>又或者<br>立于午后的阳光下<br>向缓缓走来的你<br>幽幽地行注目礼<br>还有就是<br>在傍晚昏黄的房间里<br>平躺着<br>倾听她稚嫩的呼吸</li></ul><p>2015.2.8 凌晨5点</p><p>**             (十五)**</p><ul style=list-style-type:square><li>阳光爬过囚窗<br>在午睡者苍白的脸上游走<br>想进入某些人的梦中不得<br>却踩醒了一双辗转反侧的眼睛<br>后者给前者出主意说——<br>请求上帝在你的脚上抹点麝香吧<br>当你踏过那些人的鼻子时<br>他们梦中的红罂粟<br>也许会飘落一地呢</li></ul><p>2.21 下午五点半</p><p>**              (十六)**</p><ul style=list-style-type:square><li>不愿作秋水一泓<br>用光洁的脸庞<br>摩挲你摇曳的倒影<br>更愿作一条流向春天的小河<br>忍着皴裂的疼痛<br>以潜藏爱和信念的血液<br>荡涤那些沉重的肉身重压下的灵魂<br>在贫瘠的心灵里<br>许下一束束麦穗<br>卑躬屈膝的夏天<br>作一条河流<br>就有断流和干涸的危险<br>但是<br>你却折不断<br>我蜿蜒的方向<br>还有奔流到海的倔强</li></ul><p>2.23 上午9点</p></section><footer class=article-footer><section class=article-lastmod><svg class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
 <span>最后更新于 Mar 06, 2015 07:39 UTC</span></section></footer></article><footer class=site-footer><section class=copyright>&copy;
-2025 北京守望教会</section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+2025 北京守望教会</section></footer><script>const initWordpressHugoPlaylist=()=>{const a=`wp-hugo-song-current-playing`,h=(e=`.wp-audio-playlist`)=>{const n=`${e} noscript`,t=document.querySelector(n)?.innerText;if(!t){console.log(`[getPlaylist] Can't find text in selector [${n}]`);return}console.log(`getPlaylist`,`olString`,t);const s=(new DOMParser).parseFromString(t,`text/html`).querySelector(`ol`);return console.log(`getPlaylist`,`ol`,s),Array.from(s.querySelectorAll(`li a`)).map(e=>({name:e.innerText,artist:`基督教北京守望教会唱诗班`,src:e.href}))},t=h();if(!t||!t.length)return;const c=(e=`.wp-audio-playlist`)=>{const t=`${e} audio`,n=document.querySelector(t);return n||console.error(`getAudioElement`,`audioEle`,`Can't find element with selector`,t),n},s=`wordpress_hugo_audio_playlist_player`;function m(){const e=document.createElement("style");e.textContent=`
+  #${s} {
+    font-size: 14px;
+  }
+  #${s} .controls {
+    margin-bottom: 20px;
+  }
+  #${s} .wp-hugo-song-current-playing {
+    border-radius: 5px;
+    background-color:#f7f7f7;
+  }
+
+`,document.head.appendChild(e)}function l(){const t=`
+
+<div id="${s}">
+    <div class="controls">
+        <button id="prev">上一首</button>
+        <button id="play">播放</button>
+        <button id="next">下一首</button>
+    </div>
+
+    <div id="wp_hugo_playlist">
+        <div class="song-info">
+            <a class="song-title" href=""></a>
+            
+        </div>
+    </div>
+</div>
+`,n=c(),e=document.createElement(`div`);return e.innerHTML=t,n.after(e),m(),document.querySelector(`#${s}`)}const r=l(),n=c(),i=r.querySelector("#play"),d=r.querySelector("#prev"),u=r.querySelector("#next");let e=+(localStorage.getItem(a)||0);n.addEventListener("ended",t=>{o(e+1)});function o(e){const s=t[e];n.src=s.src,n.play(),p(e)}f();function f(){const e=document.querySelector(`#wp_hugo_playlist`);e.innerHTML=t.map((e,t)=>`
+        <div class="song-info" data-song-id="${t}">
+            <button class="song-title" data-song-id="${t}">${e.name}</button>
+            <a class="song-title" href="${e.src}" download>下载</a>
+        </div>`).join(``),e.addEventListener(`click`,e=>{console.log(`updatePlaylist`,`click`,e?.target);const t=e?.target?.getAttribute(`data-song-id`);if(!t){console.error(`updatePlaylist`,`addEventListener`,`The songId is null on [e?.target?.getAttribute("data - sone - id")]`);return}o(t)})}function p(n){const o=document.querySelector(`#wp_hugo_playlist`),s=o.querySelectorAll(".song-info");s.forEach(e=>e.classList.remove(a));const r=t[n];i.innerText=`播放(${r.name})`,s[n].classList.add(a),e=n,e===t.length-1&&(e=0),localStorage.setItem(a,e)}i.addEventListener("click",()=>{if(n.paused){n.play();const s=t[e];i.textContent=`暂停(${s.name})`}else n.pause(),i.textContent=`播放(${song.name})`}),d.addEventListener("click",()=>{e=(e-1+t.length)%t.length,o(e)}),u.addEventListener("click",()=>{e=(e+1)%t.length,o(e)}),o(e)};window.addEventListener(`load`,()=>{initWordpressHugoPlaylist()})</script><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 <button class="pswp__button pswp__button--share" title=Share></button>
 <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
 <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">

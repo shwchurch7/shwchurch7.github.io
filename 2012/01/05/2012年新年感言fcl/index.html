@@ -6,7 +6,39 @@
 <time class=article-time--published>Jan 05, 2012</time></div><div><svg class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
 <time class=article-time--reading>阅读时长: 2 分钟</time></div></footer></div></header><section class=article-content><p>       2011年就要过去了。往年，每当年末岁首，回顾一年来的生活时，总能总结出一二三四，并且很想与大家好好分享。但是，今年，却发现许多用言语无法表达。只有感谢主！感谢主，让我在这一年里，在户外以及各样的事情上经历神的恩典，更加认识神，也与弟兄姊妹有更好的交通与联结！在这些不断的经历中，也让我看到自己心里软弱、狭隘、偏私……还有骄傲! 主啊，若不是你的恩典，我们会死在罪中而不自知；若不是你的恩典，我们就看不到我们是多么狭隘，无法体会你的丰盛！若不是你的恩典，我们就会在失败中停留，无法前进！</p><p>新年即到，我愿意首先来到你面前悔改：让我来省察是否行在你的心意中，是否有对不起弟兄姊妹的地方，是否有明显的失误和过犯而没有在你面前认错。想想过去的一年，有一些事情，我还是想不明白，就把它们留在未来。现在，求你带领我们，忘记背后，努力向前！</p><p>       在未来的一年，</p><p>       我为教会祈求：我们教会进入新堂，保守圣灵所赐合而为一的心，在合一中成长，兴起更多的工人。</p><p>       我为自己祈求：</p><p>       第一，     愿神带领我，为他做更多的工作；</p><p>       第二，     在一年里，好好读一遍圣经；</p><p>       还有一个末了的心愿……</p><p>       神是信实的，相信他必然一如既往地带领我们！</p><p>       盼望神赐予我们内心更大的力量，带我们走进更美好的未来！</p><p>       用爱心相互宽容，用和平彼此联络。</p><p>       行在真理的路上。</p><p>       使神荣耀的恩典得到称赞！</p></section><footer class=article-footer><section class=article-lastmod><svg class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
 <span>最后更新于 Jan 05, 2012 08:58 UTC</span></section></footer></article><footer class=site-footer><section class=copyright>&copy;
-2025 北京守望教会</section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+2025 北京守望教会</section></footer><script>const initWordpressHugoPlaylist=()=>{const a=`wp-hugo-song-current-playing`,h=(e=`.wp-audio-playlist`)=>{const n=`${e} noscript`,t=document.querySelector(n)?.innerText;if(!t){console.log(`[getPlaylist] Can't find text in selector [${n}]`);return}console.log(`getPlaylist`,`olString`,t);const s=(new DOMParser).parseFromString(t,`text/html`).querySelector(`ol`);return console.log(`getPlaylist`,`ol`,s),Array.from(s.querySelectorAll(`li a`)).map(e=>({name:e.innerText,artist:`基督教北京守望教会唱诗班`,src:e.href}))},t=h();if(!t||!t.length)return;const c=(e=`.wp-audio-playlist`)=>{const t=`${e} audio`,n=document.querySelector(t);return n||console.error(`getAudioElement`,`audioEle`,`Can't find element with selector`,t),n},s=`wordpress_hugo_audio_playlist_player`;function m(){const e=document.createElement("style");e.textContent=`
+  #${s} {
+    font-size: 14px;
+  }
+  #${s} .controls {
+    margin-bottom: 20px;
+  }
+  #${s} .wp-hugo-song-current-playing {
+    border-radius: 5px;
+    background-color:#f7f7f7;
+  }
+
+`,document.head.appendChild(e)}function l(){const t=`
+
+<div id="${s}">
+    <div class="controls">
+        <button id="prev">上一首</button>
+        <button id="play">播放</button>
+        <button id="next">下一首</button>
+    </div>
+
+    <div id="wp_hugo_playlist">
+        <div class="song-info">
+            <a class="song-title" href=""></a>
+            
+        </div>
+    </div>
+</div>
+`,n=c(),e=document.createElement(`div`);return e.innerHTML=t,n.after(e),m(),document.querySelector(`#${s}`)}const r=l(),n=c(),i=r.querySelector("#play"),d=r.querySelector("#prev"),u=r.querySelector("#next");let e=+(localStorage.getItem(a)||0);n.addEventListener("ended",t=>{o(e+1)});function o(e){const s=t[e];n.src=s.src,n.play(),p(e)}f();function f(){const e=document.querySelector(`#wp_hugo_playlist`);e.innerHTML=t.map((e,t)=>`
+        <div class="song-info" data-song-id="${t}">
+            <button class="song-title" data-song-id="${t}">${e.name}</button>
+            <a class="song-title" href="${e.src}" download>下载</a>
+        </div>`).join(``),e.addEventListener(`click`,e=>{console.log(`updatePlaylist`,`click`,e?.target);const t=e?.target?.getAttribute(`data-song-id`);if(!t){console.error(`updatePlaylist`,`addEventListener`,`The songId is null on [e?.target?.getAttribute("data - sone - id")]`);return}o(t)})}function p(n){const o=document.querySelector(`#wp_hugo_playlist`),s=o.querySelectorAll(".song-info");s.forEach(e=>e.classList.remove(a));const r=t[n];i.innerText=`播放(${r.name})`,s[n].classList.add(a),e=n,e===t.length-1&&(e=0),localStorage.setItem(a,e)}i.addEventListener("click",()=>{if(n.paused){n.play();const s=t[e];i.textContent=`暂停(${s.name})`}else n.pause(),i.textContent=`播放(${song.name})`}),d.addEventListener("click",()=>{e=(e-1+t.length)%t.length,o(e)}),u.addEventListener("click",()=>{e=(e+1)%t.length,o(e)}),o(e)};window.addEventListener(`load`,()=>{initWordpressHugoPlaylist()})</script><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 <button class="pswp__button pswp__button--share" title=Share></button>
 <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
 <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
