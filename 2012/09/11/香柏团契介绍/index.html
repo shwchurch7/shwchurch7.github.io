@@ -6,44 +6,9 @@
 <time class=article-time--published>Sep 11, 2012</time></div><div><svg class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
 <time class=article-time--reading>阅读时长: 2 分钟</time></div></footer></div></header><section class=article-content><p>守望教会香柏团契于2008年3月6日成立</p><p>本教会香柏团契成立于2008年2月，两年多来服侍了许多老年弟兄姊妹，现再次在教会中向大家作一介绍，欢迎弟兄姊妹参与服侍或参与团契活动！<br>面向对象：45岁以上（左右）的弟兄姊妹和慕道朋友；<br>团契目标：在真理、分享祷告和事奉中彼此建立，更加认识基督信靠他；<br>活动周期及时间：每周三<br>计划活动方式和内容（视情况会有所变动）：每周一次日常团契活动；探访；户外郊游；讲座；<br>同工团队：<br>香柏团契负责人：周淑琴姊妹<br>要结那满了汁浆的果子——小记守望教会香柏团契成立聚会</p><p>早春三月,乍暖还寒。六日上午，守望教会许多中老年弟兄姊妹喜聚一堂，参加香柏团契成立聚会。9：30，晓峰弟兄满怀热情带领大家敬拜神。歌声从心里唱出，歌声将心与心连在一起。之后，在天明牧师精炼讲道中给我们真理的亮光：义人如高贵的香柏树，唯在神的院中发旺。从神而来的力量丰富，满了汁浆而常发青，他们年老的时候仍要结果不息。</p><p>人生路长曲折，自然感悟颇多。在相互介绍中，大家畅谈了各自心路历程和见证。</p><p>我们香柏团契，终要有其特点：聚会以分享神的话语、彼此交通和祷告为主。另外还将计划安排其他活动，如健康知识讲座、探访和户外聚会等，以丰富大家的团契生活。<br>愿中老年弟兄姊妹在这里生命得丰盛！愿香柏团契真如香柏树，发旺在神的院中，结那满了汁浆的果子！</p></section><footer class=article-footer><section class=article-lastmod><svg class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
 <span>最后更新于 Sep 11, 2012 03:34 UTC</span></section></footer></article><footer class=site-footer><section class=copyright>&copy;
-2025 北京守望教会</section></footer><script>const initWordpressHugoPlaylist=()=>{const a=`wp-hugo-song-current-playing`,h=(e=`.wp-audio-playlist`)=>{const n=`${e} noscript`,t=document.querySelector(n)?.innerText;if(!t){console.log(`[getPlaylist] Can't find text in selector [${n}]`);return}console.log(`getPlaylist`,`olString`,t);const s=(new DOMParser).parseFromString(t,`text/html`).querySelector(`ol`);return console.log(`getPlaylist`,`ol`,s),Array.from(s.querySelectorAll(`li a`)).map(e=>({name:e.innerText,artist:`基督教北京守望教会唱诗班`,src:e.href}))},t=h();if(!t||!t.length)return;const c=(e=`.wp-audio-playlist`)=>{const t=`${e} audio`,n=document.querySelector(t);return n||console.error(`getAudioElement`,`audioEle`,`Can't find element with selector`,t),n},n=`wordpress_hugo_audio_playlist_player`;function m(){const e=document.createElement("style");e.textContent=`
-  #${n} {
-    font-size: 14px;
-  }
-  #${n} .controls {
-    margin-bottom: 20px;
-  }
-  #${n} .wp-hugo-song-current-playing {
-    border-radius: 5px;
-    background-color:#f7f7f7;
-  }
-#${n} button {
-cursor: pointer;
-}
-
-`,document.head.appendChild(e)}function l(){const t=`
-
-<div id="${n}">
-    <div class="controls">
-        <button id="prev">上一首</button>
-        <button id="play">播放</button>
-        <button id="next">下一首</button>
-    </div>
-
-    <div id="wp_hugo_playlist">
-        <div class="song-info">
-            <a class="song-title" href=""></a>
-            
-        </div>
-    </div>
-</div>
-`,s=c(),e=document.createElement(`div`);return e.innerHTML=t,s.after(e),m(),document.querySelector(`#${n}`)}const r=l(),s=c(),i=r.querySelector("#play"),d=r.querySelector("#prev"),u=r.querySelector("#next");let e=+(localStorage.getItem(a)||0);s.addEventListener("ended",t=>{o(e+1)});function o(e){const n=t[e];s.src=n.src,s.play(),p(e)}f();function f(){const e=document.querySelector(`#wp_hugo_playlist`);e.innerHTML=t.map((e,t)=>`
-        <div class="song-info" data-song-id="${t}">
-            <button class="song-title" data-song-id="${t}">${e.name}</button>
-            <a class="song-title" href="${e.src}" download>下载</a>
-        </div>`).join(``),e.addEventListener(`click`,e=>{console.log(`updatePlaylist`,`click`,e?.target);const t=e?.target?.getAttribute(`data-song-id`);if(!t){console.error(`updatePlaylist`,`addEventListener`,`The songId is null on [e?.target?.getAttribute("data - sone - id")]`);return}o(t)})}function p(n){const o=document.querySelector(`#wp_hugo_playlist`),s=o.querySelectorAll(".song-info");s.forEach(e=>e.classList.remove(a));const r=t[n];i.innerText=`播放(${r.name})`,s[n].classList.add(a),e=n,e===t.length-1&&(e=0),localStorage.setItem(a,e)}i.addEventListener("click",()=>{if(s.paused){s.play();const n=t[e];i.textContent=`暂停(${n.name})`}else s.pause(),i.textContent=`播放(${song.name})`}),d.addEventListener("click",()=>{e=(e-1+t.length)%t.length,o(e)}),u.addEventListener("click",()=>{e=(e+1)%t.length,o(e)}),o(e)};window.addEventListener(`load`,()=>{initWordpressHugoPlaylist()})</script><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+2025 北京守望教会</section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 <button class="pswp__button pswp__button--share" title=Share></button>
 <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
 <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
 </button>
-<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css crossorigin=anonymous></main></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z+KMkF24hUW8WePSA9HM=" crossorigin=anonymous></script><script type=text/javascript src=/ts/main.8f0d5af9c3d4c313dd9d476901191257ac953ed160c0e3088fcee02c4aee713e.js defer></script><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css crossorigin=anonymous></main></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z+KMkF24hUW8WePSA9HM=" crossorigin=anonymous></script><script type=text/javascript src=/ts/main.95cb3fe03e1da3681f25c04f7801d30496f29b9e803098a3c1b179df2b9ead0c.js defer></script><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>
