@@ -39,6 +39,7 @@ xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
 		<itunes:name>基督教北京守望教会发布</itunes:name>
 		<itunes:email>lanshunfang@gmail.com</itunes:email>
 	</itunes:owner>
+	<copyright>版权归基督教北京守望教会所有 https://shwchurch7.github.io</copyright>
 	<podcast:license>版权归基督教北京守望教会所有 https://shwchurch7.github.io</podcast:license>
 	<podcast:medium>podcast</podcast:medium>
 	<image>
