@@ -2,18 +2,6 @@
 &lt;div id='gallery-19' class='gallery galleryid-8696 gallery-columns-1 gallery-size-thumbnail'>
 &lt;dl class='gallery-item'>
 &lt;dt class='gallery-icon landscape'>
-&lt;a href='/wp-content/uploads/2013/07/20130717112748170.JPG'>&lt;img loading="lazy" decoding="async" width="400" height="300" src="/wp-content/uploads/2013/07/20130717112748170.JPG" class="attachment-thumbnail size-thumbnail" alt="" />&lt;/a>
-&lt;/dt>
-&lt;/dl>
-&lt;br style="clear: both" />
-&lt;dl class='gallery-item'>
-&lt;dt class='gallery-icon landscape'>
-&lt;a href='/wp-content/uploads/2013/07/20130717112733558.JPG'>&lt;img loading="lazy" decoding="async" width="400" height="300" src="/wp-content/uploads/2013/07/20130717112733558.JPG" class="attachment-thumbnail size-thumbnail" alt="" />&lt;/a>
-&lt;/dt>
-&lt;/dl>
-&lt;br style="clear: both" />
-&lt;dl class='gallery-item'>
-&lt;dt class='gallery-icon landscape'>
 &lt;a href='/wp-content/uploads/2013/07/20130717112753884.JPG'>&lt;img loading="lazy" decoding="async" width="400" height="300" src="/wp-content/uploads/2013/07/20130717112753884.JPG" class="attachment-thumbnail size-thumbnail" alt="" />&lt;/a>
 &lt;/dt>
 &lt;/dl>
@@ -26,7 +14,19 @@
 &lt;br style="clear: both" />
 &lt;dl class='gallery-item'>
 &lt;dt class='gallery-icon landscape'>
+&lt;a href='/wp-content/uploads/2013/07/20130717112748170.JPG'>&lt;img loading="lazy" decoding="async" width="400" height="300" src="/wp-content/uploads/2013/07/20130717112748170.JPG" class="attachment-thumbnail size-thumbnail" alt="" />&lt;/a>
+&lt;/dt>
+&lt;/dl>
+&lt;br style="clear: both" />
+&lt;dl class='gallery-item'>
+&lt;dt class='gallery-icon landscape'>
 &lt;a href='/wp-content/uploads/2013/07/2013071711275997.JPG'>&lt;img loading="lazy" decoding="async" width="400" height="300" src="/wp-content/uploads/2013/07/2013071711275997.JPG" class="attachment-thumbnail size-thumbnail" alt="" />&lt;/a>
+&lt;/dt>
+&lt;/dl>
+&lt;br style="clear: both" />
+&lt;dl class='gallery-item'>
+&lt;dt class='gallery-icon landscape'>
+&lt;a href='/wp-content/uploads/2013/07/20130717112733558.JPG'>&lt;img loading="lazy" decoding="async" width="400" height="300" src="/wp-content/uploads/2013/07/20130717112733558.JPG" class="attachment-thumbnail size-thumbnail" alt="" />&lt;/a>
 &lt;/dt>
 &lt;/dl>
 &lt;br style="clear: both" />
@@ -71,6 +71,17 @@
 &lt;/dl>
 &lt;dl class='gallery-item'>
 &lt;dt class='gallery-icon landscape'>
+&lt;a href='/wp-content/uploads/2013/01/20130110121346105.JPG'>&lt;img loading="lazy" decoding="async" width="400" height="300" src="/wp-content/uploads/2013/01/20130110121346105-400x300.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2013/01/20130110121346105-400x300.jpg 400w, /wp-content/uploads/2013/01/20130110121346105.JPG 500w" sizes="(max-width: 400px) 100vw, 400px" />&lt;/a>
+&lt;/dt>
+&lt;/dl>
+&lt;br style="clear: both" />
+&lt;dl class='gallery-item'>
+&lt;dt class='gallery-icon landscape'>
+&lt;a href='/wp-content/uploads/2013/01/2013011012140120.JPG'>&lt;img loading="lazy" decoding="async" width="400" height="300" src="/wp-content/uploads/2013/01/2013011012140120-400x300.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2013/01/2013011012140120-400x300.jpg 400w, /wp-content/uploads/2013/01/2013011012140120.JPG 500w" sizes="(max-width: 400px) 100vw, 400px" />&lt;/a>
+&lt;/dt>
+&lt;/dl>
+&lt;dl class='gallery-item'>
+&lt;dt class='gallery-icon landscape'>
 &lt;a href='/wp-content/uploads/2013/01/20130110121353208.JPG'>&lt;img loading="lazy" decoding="async" width="400" height="300" src="/wp-content/uploads/2013/01/20130110121353208-400x300.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2013/01/20130110121353208-400x300.jpg 400w, /wp-content/uploads/2013/01/20130110121353208.JPG 500w" sizes="(max-width: 400px) 100vw, 400px" />&lt;/a>
 &lt;/dt>
 &lt;/dl>
@@ -83,17 +94,6 @@
 &lt;dl class='gallery-item'>
 &lt;dt class='gallery-icon landscape'>
 &lt;a href='/wp-content/uploads/2013/01/20130110121415866.JPG'>&lt;img loading="lazy" decoding="async" width="400" height="300" src="/wp-content/uploads/2013/01/20130110121415866-400x300.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2013/01/20130110121415866-400x300.jpg 400w, /wp-content/uploads/2013/01/20130110121415866.JPG 500w" sizes="(max-width: 400px) 100vw, 400px" />&lt;/a>
-&lt;/dt>
-&lt;/dl>
-&lt;br style="clear: both" />
-&lt;dl class='gallery-item'>
-&lt;dt class='gallery-icon landscape'>
-&lt;a href='/wp-content/uploads/2013/01/20130110121346105.JPG'>&lt;img loading="lazy" decoding="async" width="400" height="300" src="/wp-content/uploads/2013/01/20130110121346105-400x300.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2013/01/20130110121346105-400x300.jpg 400w, /wp-content/uploads/2013/01/20130110121346105.JPG 500w" sizes="(max-width: 400px) 100vw, 400px" />&lt;/a>
-&lt;/dt>
-&lt;/dl>
-&lt;dl class='gallery-item'>
-&lt;dt class='gallery-icon landscape'>
-&lt;a href='/wp-content/uploads/2013/01/2013011012140120.JPG'>&lt;img loading="lazy" decoding="async" width="400" height="300" src="/wp-content/uploads/2013/01/2013011012140120-400x300.jpg" class="attachment-thumbnail size-thumbnail" alt="" srcset="/wp-content/uploads/2013/01/2013011012140120-400x300.jpg 400w, /wp-content/uploads/2013/01/2013011012140120.JPG 500w" sizes="(max-width: 400px) 100vw, 400px" />&lt;/a>
 &lt;/dt>
 &lt;/dl>
 &lt;br style="clear: both" />
