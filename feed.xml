@@ -15,7 +15,7 @@ xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
 	<atom:link href="https://shwchurch7.github.io/feed.xml" rel="self" type="application/rss+xml" />
 	<link>https://shwchurch7.github.io/</link>
 	<description></description>
-	<lastBuildDate>Sat, 20 Jun 2026 13:53:55 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 20 Jun 2026 14:27:37 +0000</lastBuildDate>
 	<language>zh-Hans</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -224,8 +224,8 @@ xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
 
 <p><img loading="lazy" decoding="async" class="size-medium wp-image-23318 aligncenter" src="https://shwchurch7.github.io/wp-content/uploads/2024/05/01514b6f942dfaec263c8a0f614bcc10.jpg 842w" sizes="auto, (max-width: 283px) 100vw, 283px" /></p>
 <audio class="wp-audio-shortcode" id="audio-25551-3" preload="none" style="width: 100%;" controls="controls"><source type="audio/mpeg" src="https://shwchurch7.github.io/wp-content/uploads/2024/05/db6f118dea092053f30a1791c29766ed.mp3</a></audio>
-<p>&nbsp;</p>
-<p>怎能如此, 像我这样罪人, 也蒙宝血救赎大恩?<br>主为我受痛苦鞭伤, 也为我死在十架上?<br>奇异的爱, 怎能如此, 我主我神为我受死?<br>奇异的爱, 怎能如此, 我主我神竟为我死！</p>
+<p> </p>
+<p>怎能如此, 像我这样罪人, 也蒙宝血救赎大恩?<br />主为我受痛苦鞭伤, 也为我死在十架上?<br />奇异的爱, 怎能如此, 我主我神为我受死?<br />奇异的爱, 怎能如此, 我主我神竟为我死！</p>
 
 
 
@@ -254,6 +254,7 @@ xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
 
 
 
+<p> </p>
 <p>将你最好的献恩主，献你青春的力量，<br />将你纯洁热情心灵，忠心为真理打仗；<br />主耶稣已有好榜样，勇敢坚定不惧怕，<br />你要忠心敬虔爱主，将最好的献与祂。<br />将你最好的献恩主，献你青春的力量，<br />穿上救恩全副军装，忠心为真理打仗。</p>
 
 
@@ -336,8 +337,8 @@ xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
 
 <p><img loading="lazy" decoding="async" class="size-medium wp-image-22592 aligncenter" src="https://shwchurch7.github.io/wp-content/uploads/2023/06/c3cf6b098349606e9730320d15fd9442.jpg 842w" sizes="auto, (max-width: 283px) 100vw, 283px" /></p>
 <audio class="wp-audio-shortcode" id="audio-25551-7" preload="none" style="width: 100%;" controls="controls"><source type="audio/mpeg" src="https://shwchurch7.github.io/wp-content/uploads/2023/06/ac6cf250725916510ccb4e2cd878d5e4.mp3</a></audio>
-<p> </p>
-<p>愿耶和华赐福给你，愿耶和华永远保护你，<br />愿耶和华他的脸光照你，愿耶和华赐你平安。<br />愿耶和华赐福给你，愿耶和华永远保护你，<br />愿耶和华他的脸光照你，愿耶和华赐你平安。</p>
+<p>&nbsp;</p>
+<p>愿耶和华赐福给你，愿耶和华永远保护你，<br>愿耶和华他的脸光照你，愿耶和华赐你平安。<br>愿耶和华赐福给你，愿耶和华永远保护你，<br>愿耶和华他的脸光照你，愿耶和华赐你平安。</p>
 
 
 
@@ -346,8 +347,10 @@ xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
 ]]></content:encoded>
 					
 		
-		
-			</item>
+				<enclosure url="https://shwchurch7.github.io/wp-content/uploads/2023/11/2d17d827e9f5d831f7292b93816c660c.mp3" length="6894578" type="audio/mpeg" />
+
+				<itunes:episodeType>full</itunes:episodeType>
+	</item>
 		<item>
 		<title>论到基督，你们的意见如何——2026年6月21日主日讲章/小白牧师</title>
 		<link>https://shwchurch7.github.io/2026/06/19/lun-dao-ji-du-ni-men-de-yi-jian-ru-he-2026-nian-6-yue-21-ri/</link>
